@@ -10,5 +10,5 @@ no augment was provided, the current working directory was not changed, therefor
 remained the same.
 
 2. Using the command "cd" in the terminal with a path to a directory as an argument.
-![Image](
+![Image](CD_with_directory_argument.png)
 
