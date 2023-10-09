@@ -29,7 +29,7 @@ remained the same.
 - The output displayed an error message, because the command "cd" is only used to switch the current working
   directory to the path directory entered as an arguement.
 - This is an error, because "cd" does not take files as a directory and only works if a directory path was provided
-  as an arguement.
+  as an argument.
 
 ---
 **2. Using "ls" command in the terminal**
