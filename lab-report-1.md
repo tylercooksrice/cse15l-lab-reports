@@ -87,5 +87,8 @@ the output displayed an error.
 ![Image](CAT_with_file_arguments.png)
 
 - The working directory was /home when "cat" was ran.
-- 
-
+- Using "cat" with a file as an argument, displayed the contents of the file. With the /home/lecture1/messages/ko.txt path, the
+cat command displayed 안녕하세요, which was ko.txt's contents, because the path given lead to ko.txt's content.
+- No error was displayed.
+  
+---
