@@ -38,3 +38,23 @@ remained the same.
 ![Image](LS_with_no_arguments.png)
 
 - The working directory was /home when "ls" was ran.
+- Entering "ls" into the terminal outputs the list of files and folders from the current working directory. By entering
+"ls" into the terminal, the terminal outputted the folder lecture1, because the current working directory was /home, and
+the following folder or file inside /home was lecture1.
+- Output was not an error
+
+*with a path to a directory as an argument.*
+![Image](LS_with_directory_argument.png)
+
+- The working directory was /home when "ls" was ran.
+- By entering "ls" into the terminal with a directory as an arguement, the terminal displayed the files that were inside the
+folder. The argument was /home/lecture1/messages which displayed en-us.txt es-mx.txt ko.txt zh-cn.txt, which were all the
+files in the folder messages.
+- THe output was not an error
+
+*with a path to a file as an argument.* \
+![Image](LS_with_file_argument.png)
+
+- The working directory was /home when "ls" was ran.
+- "ls"
+
