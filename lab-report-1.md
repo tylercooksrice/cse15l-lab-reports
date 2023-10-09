@@ -35,6 +35,6 @@ remained the same.
 **2. Using "ls" command in the terminal**
 
 *with no arguments.*
-![Image](LS_no_arguements.png)
+![Image](LS_with_no_arguments.png)
 
-- 
+- The working directory was /home when "ls" was ran.
