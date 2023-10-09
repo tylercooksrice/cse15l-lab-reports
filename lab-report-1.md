@@ -58,7 +58,7 @@ files in the folder messages.
 - The working directory was /home when "ls" was ran.
 - Using a file as an argument for the "ls" command in the terminal, the terminal outputted the entire path leading to the file.
 The argument typed was /home/lecture1/messages/zh-cn.txt and the output given was /home/lecture1/messages/zh-cn.txt because
-ls displays the files and folders based on the given argument, since the given argument was a file, the file was the very end
+"ls" displays the files and folders based on the given argument. Since the given argument was a file, the file was the very end
 of a given path directory, therefore, the entire path leading to the file was given instead, showing there was no other files.
 - No output error occured.
   
@@ -79,7 +79,7 @@ would be unable to run and became unresponsive the following after.
 
 - The working directory was /home when "cat" was ran.
 - When using the "cat" command with a directory as an argument, the "cat" command displayed an error, because the "cat" command
-requires a file as an argument and a directory was given argument, therefore, the cat command displayed an error.
+requires a file as an argument and a directory was the given argument, therefore, the cat command displayed an error.
 - The output was an error because the "cat" command needs a file path as an argument, therefore by providing a directory path,
 the output displayed an error.
 
