@@ -21,10 +21,10 @@ remained the same.
   in the terminal. Since "cd" now had a proper argument of a directory, the working directory was changed to
   the directory that was entered, /home/lecture1/messages, as "cd" changes the current working directory to the
   path directory entered as an argument after "cd".
-  - Output was not an error
+- Output was not an error
  
   *with a path to a file as an argument.*
   ![Image](CD_with_file_argument.png)
 
-  - The working directory was /home when ran.
-
+- The working directory was /home when ran.
+- The output displayed an error message, because 
