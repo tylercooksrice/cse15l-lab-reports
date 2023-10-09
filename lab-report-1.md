@@ -52,7 +52,7 @@ folder. The argument was /home/lecture1/messages which displayed en-us.txt es-mx
 files in the folder messages.
 - The output was not an error
 
-*with a path to a file as an argument.* \
+*with a path to a file as an argument.* 
 ![Image](LS_with_file_argument.png)
 
 - The working directory was /home when "ls" was ran.
@@ -68,4 +68,24 @@ of a given path directory, therefore, the entire path leading to the file was gi
 *with no arguments.*
 ![Image](CAT_with_no_arguments.png)
 
--
+- The working directory was /home when "cat" was ran.
+- The "cat" command prints out the contents of what was added inside the argument. By providing no arguments, the terminal could
+not process the "cat" command and became unresponsive.
+- The output was an error because "cat" needs atleast one argument in order to work. Providing no arguments, the "cat" commmand
+would be unable to run and became unresponsive the following after.
+
+*with a path to a directory as an argument.*
+![Image](CAT_with_directory_argument.png)
+
+- The working directory was /home when "cat" was ran.
+- When using the "cat" command with a directory as an argument, the "cat" command displayed an error, because the "cat" command
+requires a file as an argument and a directory was given argument, therefore, the cat command displayed an error.
+- The output was an error because the "cat" command needs a file path as an argument, therefore by providing a directory path,
+the output displayed an error.
+
+*with a path to a file as an argument.*
+![Image](CAT_with_file_arguments.png)
+
+- The working directory was /home when "cat" was ran.
+- 
+
