@@ -50,7 +50,7 @@ the following folder or file inside /home was lecture1.
 - By entering "ls" into the terminal with a directory as an arguement, the terminal displayed the files that were inside the
 folder. The argument was /home/lecture1/messages which displayed en-us.txt es-mx.txt ko.txt zh-cn.txt, which were all the
 files in the folder messages.
-- THe output was not an error
+- The output was not an error
 
 *with a path to a file as an argument.* \
 ![Image](LS_with_file_argument.png)
