@@ -47,7 +47,7 @@ the following folder or file inside /home was lecture1.
 ![Image](LS_with_directory_argument.png)
 
 - The working directory was /home when "ls" was ran.
-- By entering "ls" into the terminal with a directory as an arguement, the terminal displayed the files that were inside the
+- By entering "ls" into the terminal with a directory as an argument, the terminal displayed the files that were inside the
 folder. The argument was /home/lecture1/messages which displayed en-us.txt es-mx.txt ko.txt zh-cn.txt, which were all the
 files in the folder messages.
 - The output was not an error
