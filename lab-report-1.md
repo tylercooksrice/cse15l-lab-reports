@@ -56,5 +56,16 @@ files in the folder messages.
 ![Image](LS_with_file_argument.png)
 
 - The working directory was /home when "ls" was ran.
-- "ls"
+- Using a file as an argument for the "ls" command in the terminal, the terminal outputted the entire path leading to the file.
+The argument typed was /home/lecture1/messages/zh-cn.txt and the output given was /home/lecture1/messages/zh-cn.txt because
+ls displays the files and folders based on the given argument, since the given argument was a file, the file was the very end
+of a given path directory, therefore, the entire path leading to the file was given instead, showing there was no other files.
+- No output error occured.
+  
+---
+**3. Using "cat" command in the terminal**
 
+*with no arguments.*
+![Image](CAT_with_no_arguments.png)
+
+-
