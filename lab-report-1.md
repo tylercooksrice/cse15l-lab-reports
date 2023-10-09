@@ -22,8 +22,8 @@ remained the same.
   the directory that was entered, /home/lecture1/messages, as "cd" changes the current working directory to the
   path directory entered as an argument after "cd".
 - Output was not an error
- 
-  *with a path to a file as an argument.* 
+
+*with a path to a file as an argument.* 
 
 - The working directory was /home when ran.
 - The output displayed an error message, because the command "cd" is only used to switch the current working
