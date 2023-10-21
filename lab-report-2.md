@@ -2,10 +2,11 @@
 
 ---
 **Part 1**
-`import java.io.IOException;
-import java.net.URI;
+```
+import java.io.IOException;
+ import java.net.URI;
 
-class Handler implements URLHandler {
+ class Handler implements URLHandler {
     
         int count = 1;
         String[] words = new String[2];
@@ -46,4 +47,5 @@ class StringServer {
         Server.start(port, new Handler());
     }
 }
-`
+```
+
