@@ -2,11 +2,13 @@
 
 ---
 **Part 1**
+
+*Code*
 ```
 import java.io.IOException;
- import java.net.URI;
+import java.net.URI;
 
- class Handler implements URLHandler {
+class Handler implements URLHandler {
     
         int count = 1;
         String[] words = new String[2];
@@ -14,9 +16,10 @@ import java.io.IOException;
         public String handleRequest(URI url) {
             if (url.getPath().equals("/")) {
                 if (count == 1) {
-                    words[1]= "";
-                }
-                return String.format("This is your added string list\n%s", words[1]);
+                    words[1]= "empty";
+                    return String.format("This is your added string list\n%s", words[1]); 
+                } 
+            return String.format("This is your added string list\n%s", words[1]);    
             } else {
                 if (url.getPath().contains("/add-messages")) {
                     String[] parameters = url.getQuery().split("=");
@@ -30,7 +33,7 @@ import java.io.IOException;
                             return words[1];
                         }
                     }
-                } 
+            } 
             return "404 Not Found!";
         }
 }
@@ -48,4 +51,10 @@ class StringServer {
     }
 }
 ```
+*after /add-message?s=hello command*
+![Image](Add_Messages-hello.png)
+
+*after /add-message?s=How are you? command*
+![Image](Add_Messages-How-are-you.png)
+
 
