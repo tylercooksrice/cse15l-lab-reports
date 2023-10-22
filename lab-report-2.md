@@ -70,8 +70,12 @@ class StringServer {
 
 **Part 2**
 
+![Image](Private_Address.png)
+![Image](Public_Address.png)
+
 ---
-ls
+
+
 
 **Part 3**
 
