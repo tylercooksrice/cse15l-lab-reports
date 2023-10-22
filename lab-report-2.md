@@ -55,14 +55,14 @@ class StringServer {
 *after /add-message?s=hello command*
 ![Image](Add_Messages-hello.png)
 
--
+- The handle request method is called according to main when called.
 -
 -
 
 *after /add-message?s=How are you? command*
 ![Image](Add_Messages-How-are-you.png)
 
--
+- The handle request method is called according to main when called.
 -
 -
 
