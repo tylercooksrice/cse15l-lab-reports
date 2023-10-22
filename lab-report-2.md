@@ -70,9 +70,8 @@ class StringServer {
 
 **Part 2**
 
-
-
 ---
+ls
 
 **Part 3**
 
