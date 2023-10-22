@@ -57,17 +57,20 @@ class StringServer {
 
 - The handleRequest method is called according to main. 
 - The revelant argument made was the object URI url. In addition, to the object URI url as an argument, the url link itself would need the
-  /add-messages/s?=hello after localhost:4000 to add hello onto the stringServer's string list
+  /add-messages/s?=hello after localhost:4000 to add hello onto the stringServer's string list.
 - No value changed were changed because hello is a singular string variable, therefore no changes were needed.
 
 *after /add-message?s=How are you? command*
 ![Image](Add_Messages-How-are-you.png)
 
 - The handleRequest method is called according to main. 
-- The revelant argument made was the object URI url
+- The revelant argument made was the object URI url. Futhermore, to the object URI url as an argument, the url link itself would need the
+  /add-messages?s=How%20are%20you after localhost:4000 to add How are you onto the stringServer's string list.
 - Spaces got changed into percentage signs in the url link.
 
 **Part 2**
+
+
 
 ---
 
