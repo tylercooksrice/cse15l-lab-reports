@@ -51,6 +51,7 @@ class StringServer {
     }
 }
 ```
+
 *after /add-message?s=hello command*
 ![Image](Add_Messages-hello.png)
 -
@@ -65,9 +66,11 @@ class StringServer {
 
 
 **Part 2**
+
 ---
 
 **Part 3**
+
 ---
 
 
