@@ -74,7 +74,7 @@ class StringServer {
 ---
 
 - The path to the private key for your SSH key login for ieng6
-![Image](Private_Address.png)
+![Image](Private_Address1.png)
 
 - The path to the public key for your SSH key login for ieng6
 ![Image](Public_Address1.png)
