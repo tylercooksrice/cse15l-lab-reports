@@ -73,8 +73,13 @@ class StringServer {
 **Part 2**
 ---
 
+- The path to the private key for your SSH key login for ieng6
 ![Image](Private_Address.png)
+
+- The path to the public key for your SSH key login for ieng6
 ![Image](Public_Address.png)
+
+- Terminal interaction without password when logging into ieng6
 ![Image](terminal_no_login.png)
 
 **Part 3**
