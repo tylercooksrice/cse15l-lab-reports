@@ -1,8 +1,8 @@
 ### Lab Report 2 ###
 
----
-**Part 1**
 
+**Part 1**
+---
 *Code for String Server*
 ```
 import java.io.IOException;
@@ -68,17 +68,14 @@ class StringServer {
   /add-messages?s=How%20are%20you after localhost:4000 to add How are you onto the stringServer's string list.
 - Spaces got changed into percentage signs in the url link.
 
-**Part 2**
 
+**Part 2**
+---
 ![Image](Private_Address.png)
 ![Image](Public_Address.png)
 ![Image](terminal_no_login.png)
----
-
-
 
 **Part 3**
-
 ---
 
 
