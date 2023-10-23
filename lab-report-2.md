@@ -3,6 +3,7 @@
 
 **Part 1**
 ---
+
 *Code for String Server*
 ```
 import java.io.IOException;
@@ -71,6 +72,7 @@ class StringServer {
 
 **Part 2**
 ---
+
 ![Image](Private_Address.png)
 ![Image](Public_Address.png)
 ![Image](terminal_no_login.png)
