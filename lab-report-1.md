@@ -4,7 +4,7 @@
 **1. Using "cd" command in the terminal**
 
 *with no arguments.*
-![Image](CD_with_no_arguments1.png)
+![Image](CD_with_no_arguments2.png)
 
 - The working directory was /home when "cd" was ran.
 - The output remained the same and did not change the working directory. This occurred possibly because "cd"
