@@ -72,7 +72,7 @@ class StringServer {
 
 ![Image](Private_Address.png)
 ![Image](Public_Address.png)
-
+![Image](terminal_no_login.png)
 ---
 
 
