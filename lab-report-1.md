@@ -7,10 +7,9 @@
 ![Image](CD_with_no_arguments2.png)
 
 - The working directory was /home/lecture1/messages when "cd" was ran.
-- The output remained the same and did not change the working directory. This occurred possibly because "cd"
-is used to switch the current working directory to the given path directory, provided as an augment. Since 
-no augment was provided, the current working directory was not changed, therefore the output 
-remained the same.
+- The output changed as the working directory changed from the current directory of /home/lecture1/messages
+  to the home directory of /home. Since no argument was provided, the current working directory was changed
+  to the home directory path.
 - Output was not an error
 
 *with a path to a directory as an argument.*
@@ -69,10 +68,11 @@ of a given path directory, therefore, the entire path leading to the file was gi
 ![Image](CAT_with_no_arguments.png)
 
 - The working directory was /home when "cat" was ran.
-- The "cat" command prints out the contents of what was added inside the argument. By providing no arguments, the terminal could
-not process the "cat" command and became unresponsive.
-- The output was an error because "cat" needs atleast one argument in order to work. Providing no arguments, the "cat" commmand
-would be unable to run and became unresponsive the following after.
+- The "cat" command prints out the contents of what was added inside the argument. By providing no arguments, the terminal would
+  display back to the user whatever was typed into the terminal input.
+- The output, with no arguments began to read in data from the standard input, which afterwards would write what was inputted
+  back into the standard output, which was why the output would display back to the user whatever was typed into the input after
+  typing the "cat" commmand without any arguments.
 
 *with a path to a directory as an argument.*
 ![Image](CAT_with_directory_argument.png)
