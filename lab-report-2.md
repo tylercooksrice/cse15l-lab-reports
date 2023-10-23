@@ -85,5 +85,6 @@ class StringServer {
 **Part 3**
 ---
 
+From lab of week two and three, I learned how to build and run a server, which was something I have always wanted to learn, and it was very cool to see what can be done by manipulating the URL paths. Using a remote computer was also a new concept that I learned because usually I would run every program from my own computer. It was cool to see how a remote computer would work and how similar it was to a personal computer, but at the same time, what the differences was.
 
 
