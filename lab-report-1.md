@@ -6,7 +6,7 @@
 *with no arguments.*
 ![Image](CD_with_no_arguments2.png)
 
-- The working directory was /home when "cd" was ran.
+- The working directory was /home/lecture1/messages when "cd" was ran.
 - The output remained the same and did not change the working directory. This occurred possibly because "cd"
 is used to switch the current working directory to the given path directory, provided as an augment. Since 
 no augment was provided, the current working directory was not changed, therefore the output 
