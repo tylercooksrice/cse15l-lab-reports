@@ -33,7 +33,7 @@ public class ArrayTests {
 ```
 
 *Output of running tests*
-![Image](input.png)
+![Image](inputs.png)
 
 *before bug fix*
 ```
