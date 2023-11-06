@@ -64,7 +64,7 @@ public class ArrayExamples {
 ---
 
 1. grep -c
-   - source from [link](https://en.wikibooks.org/wiki/Grep)
+   - source from https://en.wikibooks.org/wiki/Grep
 ```
 $ grep -c "that" chapter-1.txt
 172
@@ -96,7 +96,7 @@ This command is showing the number of times "the" appears in all the text files 
 In addition, this command is useful because the command shows the recurrences of a specific word in all the text files within a directory.
 
 2. grep -b
-   - source from [link](https://en.wikibooks.org/wiki/Grep)
+   - source from https://en.wikibooks.org/wiki/Grep
 ```
 grep -b "Americans" chapter-2.txt
 1115:            He claimed it was more important for Muslims to kill Americans than to kill other
@@ -130,7 +130,7 @@ This command shows which file within a directory is a directory and is useful be
 directories exist within a directory.
 
 3. grep -r
-   - source from [link](https://linuxhandbook.com/grep-search-all-files-directories/#:~:text=You%20can%20make%20grep%20search,grep%20%2Dr%20search_term%20.)
+   - source from https://linuxhandbook.com/grep-search-all-files-directories/#:~:text=You%20can%20make%20grep%20search,grep%20%2Dr%20search_term%20.
 ```
 $ grep -r 'tower' 911report
 911report/chapter-1.txt:    All on board, along with an unknown number of people in the tower, were killed instantly.
@@ -210,7 +210,7 @@ was to project calm, not to have the country see an excited reaction at a moment
 This command shows all the lines within a file that has the 'tower' within it and could be useful in finding specfic words in the file and their sentence.
 
 4. grep -rl
-   - source from [link](https://askubuntu.com/questions/55325/how-to-use-grep-command-to-find-text-including-subdirectories)
+   - source from https://askubuntu.com/questions/55325/how-to-use-grep-command-to-find-text-including-subdirectories
 ```
 $ grep -rl "people"
 911report/chapter-1.txt
