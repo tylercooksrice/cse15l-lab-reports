@@ -63,6 +63,7 @@ public class ArrayExamples {
 **Part 2**
 ---
 
+1. grep -c
 ```
 $ grep -c "that" chapter-1.txt
 172
@@ -92,6 +93,8 @@ preface.txt:68
 ```
 This command is showing the number of times "the" appears in all the text files in the 911report directory in the technical directory.
 In addition, this command is useful because the command shows the recurrences of a specific word in all the text files within a directory.
+
+2. grep -b
 ```
 grep -b "Americans" chapter-2.txt
 1115:            He claimed it was more important for Muslims to kill Americans than to kill other
@@ -124,6 +127,7 @@ grep: plos: Is a directory
 This command shows which file within a directory is a directory and is useful because sometimes the user would not be able to see what other
 directories exist within a directory.
 
+3. grep -r
 ```
 $ grep -r 'tower' 911report
 911report/chapter-1.txt:    All on board, along with an unknown number of people in the tower, were killed instantly.
@@ -201,6 +205,15 @@ was to project calm, not to have the country see an excited reaction at a moment
     At 9:33, the tower supervisor at Reagan National Airport picked up a hotline to the Secret Service and told the Service's operations center that "an aircraft [is] coming at you and not talking with us." This was the first specific report to the Secret Service of a direct threat to the White House. No move was made to evacuate the Vice President at this time. As the officer who took the call explained, "[I was] about to push the alert button when the tower advised that the aircraft was turning south and approaching Reagan National Airport."
 ```
 This command shows all the lines within a file that has the 'tower' within it and could be useful in finding specfic words in the file and their sentence.
+
+4. grep 
+```
+
+```
+
+```
+
+```
 
 
 
