@@ -34,8 +34,10 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java to compile the
 
 Step 7: Edit the code file to fix the failing test
 
-  vim ListExa< Tab >mples.java < Enter >
+  vim ListE< Tab >xamples.< Tab >java < Enter >
   /index1 < Enter > 9nexi2 < Esc > :wq 
+
+![Image](save.png)
 
 - To edit the ListExamples.java file, we used vim and with the help of tab to autocomplete our argument. With the press of the <Enter> key
 we were presented with the ListExamples.java file. Using / to find index1, we were able to find it quickly after typing 9n after pressing Enter.
@@ -56,10 +58,12 @@ show that the ListExamples.java file works properly.
 
 Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
-  git add ListE< Tab >xamples.java < Enter > i done < Esc > :wq
+  git add ListE< Tab >xamples.< Tab >java < Enter > i done < Esc > :wq
   git push
 
 - To commit and push our change, git add was typed in and with the help of the < Tab > key, we autofilled ListExamples.java after only typing in ListE. With 
 the press of the < Enter > key, we "staged" a file to be part of our next commit. Pressing the < Enter > key and inserting the commit message with i, we added ListExamples.java
 into the next commit with "done" as the commit message. With the < Esc > key, we exited insert mode and typed in :wq to save the commit message. With git push, we pushed our 
 new commit into our Github.
+
+![Image](git.png)
