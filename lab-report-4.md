@@ -61,9 +61,9 @@ Step 9: Commit and push the resulting change to your Github account (you can pic
   git add ListE< Tab >xamples.< Tab >java < Enter > i done < Esc > :wq
   git push
 
+![Image](git.png)
+
 - To commit and push our change, git add was typed in and with the help of the < Tab > key, we autofilled ListExamples.java after only typing in ListE. With 
 the press of the < Enter > key, we "staged" a file to be part of our next commit. Pressing the < Enter > key and inserting the commit message with i, we added ListExamples.java
 into the next commit with "done" as the commit message. With the < Esc > key, we exited insert mode and typed in :wq to save the commit message. With git push, we pushed our 
 new commit into our Github.
-
-![Image](git.png)
