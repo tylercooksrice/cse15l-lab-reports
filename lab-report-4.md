@@ -31,7 +31,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java to compile the
 
 Step 7: Edit the code file to fix the failing test
 
-  vim ListExa< Tab > mples.java < Enter >
+  vim ListExa< Tab >mples.java < Enter >
   /index1 < Enter > 9nexi2 < Esc > :wq 
 
 - To edit the ListExamples.java file, we used vim and with the help of tab to autocomplete our argument. With the press of the <Enter> key
