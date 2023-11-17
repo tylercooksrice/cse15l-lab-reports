@@ -5,7 +5,7 @@ Step 4: Log into ieng6
 
   ssh < Ctrl + v of cs15lfa23id@ieng6.ucsd.edu > < Enter >
 
-- Using the ssh command allowed us to log into ieng6 machine. With the help of < ctrl + v > we were able to paste cs15lfa23id@ieng6.ucsd.edu
+- Using the ssh command allowed us to log into ieng6 machine. With the help of < Ctrl + v > we were able to paste cs15lfa23id@ieng6.ucsd.edu
 from our clipboard into the terminal line and then presseing enter allowed us to log straight into the ieng6 machine.
 
 
