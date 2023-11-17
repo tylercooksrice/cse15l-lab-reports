@@ -14,6 +14,8 @@ Step 5: Clone your fork of the repository from your Github account (using the SS
 
   git clone < Ctrl + v of git@github.com:tylercooksrice/lab7.git > < Enter >
 
+![Image](clone.png)
+
 - git clone allowed us to clone our repository from my github and with the usage of < ctrl + v >, we could paste our forked repository of 
 git@github.com:tylercooksrice/lab7.git into the terminal line. With the press of the < Enter > key, we were able to clone our repository 
 into the ieng6 machine.
