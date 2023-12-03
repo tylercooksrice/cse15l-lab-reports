@@ -46,7 +46,7 @@ vim ListE<Tab>xamples.<Tab>java<Enter>
 - To edit the ListExamples.java file, we used vim and with the help of tab to autocomplete our argument. With the press of the <Enter> key
 we were presented with the ListExamples.java file. Using / to find index1, we were able to find it quickly after typing 9n after pressing Enter.
 Upon finding index1, we pressed on e to bring us to the end of the variable, and with x, we deleted 1 from index1 and with i, we entered in 2 for 1
-and pressed < Esc > to save the insert change. With :wq, we saved our changes into the ListExamples.java file.
+and pressed < Esc > to save the insert change. With `:wq`, we saved our changes into the ListExamples.java file.
 
 Step 8: Run the tests, demonstrating that they now succeed
 
@@ -57,9 +57,9 @@ Step 8: Run the tests, demonstrating that they now succeed
 
 ![Image](successful.png)
 
-- With < Ctrl + r > we searched up in our command history for javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java and with the < Enter > key,
-we compiled our .java files and Junit Tests. With < Ctrl + r > again, we typed in java to search in our command history for 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests. Pressing < Enter > allowed us to run the tests, and 
+- With `<Ctrl + r>` we searched up in our command history for `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and with the `<Enter>` key,
+we compiled our .java files and Junit Tests. With `<Ctrl + r>` again, we typed in java to search in our command history for 
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.` Pressing `<Enter>` allowed us to run the tests, and 
 show that the ListExamples.java file works properly.
 
 Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
@@ -71,7 +71,7 @@ git push
 
 ![Image](git.png)
 
-- To commit and push our change, git add was typed in and with the help of the < Tab > key, we autofilled ListExamples.java after only typing in ListE. With 
-the press of the < Enter > key, we "staged" a file to be part of our next commit. Pressing the < Enter > key and inserting the commit message with i, we added ListExamples.java
-into the next commit with "done" as the commit message. With the < Esc > key, we exited insert mode and typed in :wq to save the commit message. With git push, we pushed our 
+- To commit and push our change, `git add` was typed in and with the help of the `<Tab>` key, we autofilled ListExamples.java after only typing in ListE. With 
+the press of the `<Enter>` key, we "staged" a file to be part of our next commit. Pressing the `<Enter>` key and inserting the commit message with i, we added ListExamples.java
+into the next commit with "done" as the commit message. With the `<Esc>` key, we exited insert mode and typed in `:wq` to save the commit message. With `git push`, we pushed our 
 new commit into our Github.
