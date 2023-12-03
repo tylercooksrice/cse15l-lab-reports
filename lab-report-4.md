@@ -46,7 +46,7 @@ vim ListE<Tab>xamples.<Tab>java<Enter>
 - To edit the ListExamples.java file, we used vim and with the help of tab to autocomplete our argument. With the press of the <Enter> key
 we were presented with the ListExamples.java file. Using / to find index1, we were able to find it quickly after typing 9n after pressing Enter.
 Upon finding index1, we pressed on e to bring us to the end of the variable, and with x, we deleted 1 from index1 and with i, we entered in 2 for 1
-and pressed < Esc > to save the insert change. With `:wq`, we saved our changes into the ListExamples.java file.
+and pressed `<Esc>` to save the insert change. With `:wq`, we saved our changes into the ListExamples.java file.
 
 Step 8: Run the tests, demonstrating that they now succeed
 
