@@ -30,7 +30,7 @@ cd la<Tab>b7/<Enter>
 
 ![Image](failures.png)
 
-- using cd, we can get into the directory of lab7 that was clones. With the usage of `tab`, we were able to autocomplete lab7 after typing la. 
+- using `cd`, we can get into the directory of lab7 that was clones. With the usage of `tab`, we were able to autocomplete lab7 after typing la. 
 Pressing `<Enter>` brought us into the lab7 directory. With the `<Ctrl + v>` command again, we pasted from our clipboard 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile the .java and Junit tests inside lab7.
 
