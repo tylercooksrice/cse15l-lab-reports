@@ -3,7 +3,7 @@
 ---
 Step 4: Log into ieng6
 
-`ssh < Ctrl + v of cs15lfa23id@ieng6.ucsd.edu > < Enter > `
+`ssh <Ctrl + v of cs15lfa23id@ieng6.ucsd.edu> <Enter>`
 
 ![Image](login.png)
 
@@ -12,7 +12,7 @@ from our clipboard into the terminal line and then presseing enter allowed us to
 
 Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 
-`git clone < Ctrl + v of git@github.com:tylercooksrice/lab7.git > < Enter > `
+`git clone <Ctrl + v of git@github.com:tylercooksrice/lab7.git> <Enter>`
 
 ![Image](clone.png)
 
