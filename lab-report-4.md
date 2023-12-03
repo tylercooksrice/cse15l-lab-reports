@@ -23,9 +23,9 @@ into the ieng6 machine.
 Step 6: Run the tests, demonstrating that they fail
 
 ```
-cd la< Tab >b7/ < Enter > 
-< Ctrl + v of javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java > < Enter > 
-< Ctrl + v of java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests > < Enter >
+cd la<Tab>b7/<Enter> 
+<Ctrl + v of javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java><Enter> 
+<Ctrl + v of java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests> <Enter>
 ```
 
 ![Image](failures.png)
@@ -37,8 +37,8 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java to compile the
 Step 7: Edit the code file to fix the failing test
 
 ```
-vim ListE< Tab >xamples.< Tab >java < Enter > 
-/index1 < Enter > 9nexi2 < Esc > :wq 
+vim ListE<Tab>xamples.<Tab>java<Enter> 
+/index1<Enter>9nexi2<Esc>:wq 
 ```
 
 ![Image](save.png)
@@ -51,8 +51,8 @@ and pressed < Esc > to save the insert change. With :wq, we saved our changes in
 Step 8: Run the tests, demonstrating that they now succeed
 
 ```
-< Ctrl + r > javac < Enter > 
-< Ctrl + r > java < Enter >
+<Ctrl + r> javac <Enter> 
+<Ctrl + r> java <Enter>
 ```
 
 ![Image](successful.png)
@@ -65,7 +65,7 @@ show that the ListExamples.java file works properly.
 Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)
 
 ```
-git add ListE< Tab >xamples.< Tab >java < Enter > i done < Esc > :wq `
+git add ListE<Tab>xamples.<Tab>java<Enter> i done <Esc>:wq
 git push
 ```
 
