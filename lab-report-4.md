@@ -7,7 +7,7 @@ ssh <Ctrl + v of cs15lfa23id@ieng6.ucsd.edu><Enter>
 ```
 ![Image](login.png)
 
-- Using the ssh command allowed us to log into ieng6 machine. With the help of < Ctrl + v > we were able to paste cs15lfa23id@ieng6.ucsd.edu
+- Using the ssh command allowed us to log into ieng6 machine. With the help of `<Ctrl + v>` we were able to paste cs15lfa23id@ieng6.ucsd.edu
 from our clipboard into the terminal line and then presseing enter allowed us to log straight into the ieng6 machine.
 
 Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
@@ -16,8 +16,8 @@ git clone <Ctrl + v of git@github.com:tylercooksrice/lab7.git><Enter>
 ```
 ![Image](clone.png)
 
-- git clone allowed us to clone our repository from my github and with the usage of < ctrl + v >, we could paste our forked repository of 
-git@github.com:tylercooksrice/lab7.git into the terminal line. With the press of the < Enter > key, we were able to clone our repository 
+- `git clone` allowed us to clone our repository from my github and with the usage of `<ctrl + v>`, we could paste our forked repository of 
+`git@github.com:tylercooksrice/lab7.git` into the terminal line. With the press of the `<Enter>` key, we were able to clone our repository 
 into the ieng6 machine.
 
 Step 6: Run the tests, demonstrating that they fail
@@ -30,9 +30,9 @@ cd la<Tab>b7/<Enter>
 
 ![Image](failures.png)
 
-- using cd, we can get into the directory of lab7 that was clones. With the usage of tab, we were able to autocomplete lab7 after typing la. 
-Pressing < Enter > brought us into the lab7 directory. With the < Ctrl + v > command again, we pasted from our clipboard 
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java to compile the .java and Junit tests inside lab7.
+- using cd, we can get into the directory of lab7 that was clones. With the usage of `tab`, we were able to autocomplete lab7 after typing la. 
+Pressing `<Enter>` brought us into the lab7 directory. With the `<Ctrl + v>` command again, we pasted from our clipboard 
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile the .java and Junit tests inside lab7.
 
 Step 7: Edit the code file to fix the failing test
 
