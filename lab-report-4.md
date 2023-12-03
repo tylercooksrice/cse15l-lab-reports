@@ -22,9 +22,9 @@ into the ieng6 machine.
 
 Step 6: Run the tests, demonstrating that they fail
 
-`  cd la< Tab >b7/ < Enter > `
-`  < Ctrl + v of javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java > < Enter > `
-`  < Ctrl + v of java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests > < Enter > `
+```  cd la< Tab >b7/ < Enter > 
+  < Ctrl + v of javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java > < Enter > 
+  < Ctrl + v of java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests > < Enter > ```
 
 ![Image](failures.png)
 
